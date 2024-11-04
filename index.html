@@ -3,11 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/Ropa.css" />
     <title>Ropa2024</title>
   </head>
   <body>
-    <h1>ROPA 2024</h1>
-    <nav></nav>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="./img/logo.png" alt="Logo Principal" />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"
+        >TIENDA</a
+      >
+      <a class="navegacion__enlace" href="Nosotros.html">NOSOTROS</a>
+    </nav>
+    <main class="contenedor">
+      <h1>NUESTROS PRODUCTOS</h1>
+      <div class="grid">
+        <!--Todos Los Productos-->
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/1.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Vuejs</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/2.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">AngularJs</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/3.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">ReactJs</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/4.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Redux</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/5.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">NodeJs</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/6.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Sass</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/7.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Html</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/8.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Github</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/9.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Bulma</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/10.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">TypeScript</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/11.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">Drupal</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/12.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">JavaScript</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/13.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">GraphGL</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+        <div class="Productos">
+          <a href="Productos.html">
+            <img src="./img/14.jpg" alt="imagen  camisa" />
+            <p class="producto__nombre">WordPress</p>
+            <p class="producto__precio">$25</p>
+          </a>
+        </div>
+
+        <div class="grafico grafico--camisa"></div>
+        <!---imagen 1 -->
+        <div class="grafico grafico--node"></div>
+        <!---imagen 2 -->
+      </div>
+    </main>
+    <footer class="footer"> 
+      <p class=" footer__texto"  >
+        --ROPA 2024 Todos Los Derehos Reservados
+      </p>
+    </footer>
   </body>
 </html>
